@@ -60,7 +60,7 @@ export default function Chat() {
         ))}
       </div>
 
-      <div className="flex gap-2 max-w-2xl mx-auto">
+      <div className="flex gap-2 max-w-2xl mx-auto mb-6">
         <input
           type="text"
           className="flex-1 p-2 rounded-lg border border-gray-300 shadow-sm focus:outline-none"
@@ -74,6 +74,16 @@ export default function Chat() {
           className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
         >
           Enviar
+        </button>
+      </div>
+
+      {/* ✅ BOTÓN DE REGRESO */}
+      <div className="text-center mt-8">
+        <button
+          onClick={() => router.push('/')}
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-6 rounded-full shadow transition"
+        >
+          Pagina principal
         </button>
       </div>
     </main>

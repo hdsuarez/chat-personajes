@@ -3,7 +3,7 @@
 // Simulamos respuestas por personaje
 const respuestasSimuladas = {
   putin: [
-    "Rusia tiene intereses estratégicos muy claros.",
+    "Soy el presidente me consideran el chuck norris ruso",
     "Mi liderazgo garantiza la estabilidad.",
     "Occidente debe respetar nuestra soberanía.",
   ],
